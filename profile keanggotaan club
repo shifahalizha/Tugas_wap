@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .start{
+         text-align:center;
+         color:antiquewhite;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            padding: 100px;
+            color:black;
+            border-radius: 25px;
+            background-color:bisque;
+            margin: 15px;
+        }
+        .foto{
+            width: 200px;
+            margin-right: 50px;
+            border-radius: 15px;
+        }
+        .text1{
+            font-size:20px;
+        }
+        .text2{
+            font-size:15px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="start">Kia Art Club!</h1>
+
+    <div class="navbar">
+        <h2 style="text-align: center;">My Profile</h2>
+        <img class="foto" src="images/fotoshifa.JPG" alt="">
+
+        <h1 class="text1">Nama</h1>
+        <p class="text2"> Shifa Halizha Sestiawan</p>
+        <h1 class="text1"> Tempat Tanggal lahir</h2>
+        <p class="text2">Depok, 16 Maret 2004</p>
+        <h1 class="text1">Hobi</h1>
+        <ul class="text1">
+            <li class="text2">Bermain Game</li>
+            <li class="text2">memasak</li>
+            <li class="text2">mendengarkan musik</li>
+        </ul>
+        <h1 class="text1">zodiak</h1>
+        <p class="text2"> pisces</p>
+        <h1 class="text1">Contact</h1>
+        <ul>
+            <li class="text2">whatsapp (08123456789)</li>
+            <li>
+                <a class="text2" href="https://www.instagram.com/">Instagram <i class="text2"></i></a>
+            </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
